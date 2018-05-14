@@ -1,0 +1,26 @@
+{
+  "name": "@node-menu/core",
+  "version": "1.0.0",
+  "description": "Menu components for Node",
+  "main": "index.js",
+  "scripts": {
+    "test:ci": "nyc ava src/*-spec.js",
+    "test": "ava src/*-spec.js -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "sinon": "^5.0.7",
+    "ava": "^0.20.0",
+    "codecov": "^2.2.0",
+    "nyc": "^11.0.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ]
+  }
+}

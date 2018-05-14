@@ -1,4 +1,4 @@
-# Node-menu
+# Node-menu  [![Build Status](https://travis-ci.org/zimmo-be/node-menu.svg?branch=master)](https://travis-ci.org/zimmo-be/express-openapi-router) [![codecov](https://codecov.io/gh/zimmo-be/express-openapi-router/badge.svg?branch=master)](https://codecov.io/gh/zimmo-be/node-menu?branch=master)
 
 This library objectifies HTML navigation trees (aka menus). It helps you
 with building, rendering and detecting the current and/or ancestor states.

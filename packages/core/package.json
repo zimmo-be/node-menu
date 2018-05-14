@@ -4,8 +4,7 @@
   "description": "Menu components for Node",
   "main": "index.js",
   "scripts": {
-    "test:ci": "nyc ava src/*-spec.js",
-    "test": "ava src/*-spec.js -w"
+    "test": "nyc ava src/*-spec.js"
   },
   "author": "",
   "license": "ISC",

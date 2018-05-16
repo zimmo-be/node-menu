@@ -4,7 +4,7 @@ class Menu {
         this.name = name;
         this.children = [];
         if (items) {
-            items.map(item => this.addChild(item));
+            items.map(item => this.addChild(item.label, item));
         }
     }
 

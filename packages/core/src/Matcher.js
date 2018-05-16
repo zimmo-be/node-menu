@@ -1,7 +1,12 @@
 module.exports = class Matcher
 {
     constructor(voters = []) {
-        this.voters = voters;
+        if (typeof(voters) === 'function') {
+            this.voters = [voters];
+        }
+        if (voters instanceof Array) {
+            this.voters = voters;
+        }
     }
     isCurrent(item) {
         if (item.isCurrent) {
@@ -22,4 +27,4 @@ module.exports = class Matcher
         }
         return false;
     }
-}
+};

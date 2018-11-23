@@ -1,3 +1,3 @@
-const ListRenderer = require("src/ListRenderer");
+const ListRenderer = require("./src/ListRenderer");
 
 module.exports = { ListRenderer };

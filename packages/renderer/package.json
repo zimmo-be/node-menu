@@ -1,6 +1,6 @@
 {
   "name": "@node-menu/renderer",
-  "version": "1.0.4",
+  "version": "1.1.0",
   "description": "Rendering services for node-menu",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@node-menu/core": "^1.0.4"
+    "@node-menu/core": "^1.1.0"
   },
   "devDependencies": {
     "ava": "^0.20.0",

@@ -1,6 +1,6 @@
 {
   "name": "@node-menu/express-middleware",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Express middleware for node-menu",
   "main": "index.js",
   "scripts": {
@@ -9,6 +9,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@node-menu/core": "^1.1.1"
+    "@node-menu/core": "^1.1.2"
   }
 }
